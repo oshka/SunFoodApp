@@ -15,10 +15,12 @@ const Bar = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <Bar>This is a bar</Bar>
-    <h1>Hi people11</h1>
-    <p>Welcome to your new site.</p>
-    <p>Now go build something great.</p>
+    <h2><span>Sun</span>Code<span>Flower</span> presents..</h2>
+    <p>We all love tasty food and eat well. But sometimes we lack the imagination or words to describe what we want for dinner.</p>
+    <p>We present you a mega application using the latest technologies that can solve all the above problems.</p>
+    <p>In our great app we use only morder API such as Fauna (for call the db and receive data), Clarify (to detect food image), Formspree (for collecting delivery address), Pilon (because it's interesting to try). And many, many others.</p>
+    <p>Meet ...</p>
+    <h1><a href=""><span>Sun</span>Food<span>App</span></a></h1>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
