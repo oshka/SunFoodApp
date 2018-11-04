@@ -1,18 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import styled from 'styled-components'
 import food from '../images/food.png'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
-
-const Bar = styled.div`
-  display: flex;
-  width: 100%;
-  height: 250px;
-  color: #c3c3c3;
-`
-
 
 const IndexPage = () => (
   <Layout>
