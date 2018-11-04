@@ -16,8 +16,8 @@ const Bar = styled.div`
 const IndexPage = () => (
   <Layout>
     <Bar>This is a bar</Bar>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <h1>Hi people11</h1>
+    <p>Welcome to your new site.</p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
