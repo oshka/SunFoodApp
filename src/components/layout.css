@@ -216,7 +216,6 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -234,6 +233,13 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  color: #2d4059;
+}
+h1 span, h2 span {
+  color: #ffb400;
+}
+h1 a {
+  color: #2d4059;
 }
 h2 {
   margin-left: 0;
@@ -244,7 +250,7 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #2d4059;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -621,4 +627,17 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.logo-img{
+  padding-top:10px;
+}
+.top-menu li{
+  display:inline-block;
+  margin-top: calc(1.45rem / 2);
+  margin-right: 1rem;
+}
+.top-menu li a{
+  color:#fff;
+  text-decoration: none;
+  padding: 10px 10px 30px 0;
 }
